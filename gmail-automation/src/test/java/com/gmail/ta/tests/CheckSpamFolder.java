@@ -1,19 +1,23 @@
-package com.gmail.automation.hometask.tests;
+package com.gmail.ta.tests;
 
 import static org.junit.Assert.assertEquals;
 
 import java.util.concurrent.TimeUnit;
 
+import org.apache.log4j.Logger;
 import org.junit.Test;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
-import com.gmail.automation.hometask.pages.HomePage;
-import com.gmail.automation.hometask.pages.InitialPage;
-import com.gmail.automation.hometask.pages.SignInPage;
+import com.gmail.ta.pages.MainPage;
+import com.gmail.ta.pages.InitialPage;
+import com.gmail.ta.pages.SignInPage;
 
-public class CheckSpamFolder extends TestData{
 
+public class CheckSpamFolder extends TestingData{
+	
+	private final Logger logger = Logger.getLogger(CheckSpamFolder.class);
+	
 	@Test
 	public void checkSpamFolder() {
 			System.setProperty("webdriver.chrome.driver", "c:/Selenium/chromedriver.exe");
@@ -23,10 +27,11 @@ public class CheckSpamFolder extends TestData{
 			initialpage.openPage(URL);
 			SignInPage signinpage = new SignInPage(driver);
 			signinpage.signIn(SECONDEMAIL, SECONDPASSWORD);
-			HomePage homepage = new HomePage(driver);
+			MainPage homepage = new MainPage(driver);
 			homepage.openSpam();
 			String actualEmailSubject = homepage.getEmailSubject();
 			assertEquals(SUBJECT, actualEmailSubject);
+			logger.info("Email was found in SPAM folder");
 			driver.close();
 	}
 

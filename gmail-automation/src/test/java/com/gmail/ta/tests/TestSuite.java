@@ -1,4 +1,4 @@
-package com.gmail.automation.hometask.tests;
+package com.gmail.ta.tests;
 
 import org.junit.runner.RunWith;
 import org.junit.runners.Suite;

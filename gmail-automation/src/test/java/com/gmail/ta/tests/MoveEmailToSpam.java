@@ -1,17 +1,21 @@
-package com.gmail.automation.hometask.tests;
+package com.gmail.ta.tests;
 
 import java.util.concurrent.TimeUnit;
 
+import org.apache.log4j.Logger;
 import org.junit.Test;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
-import com.gmail.automation.hometask.pages.HomePage;
-import com.gmail.automation.hometask.pages.InitialPage;
-import com.gmail.automation.hometask.pages.SignInPage;
+import com.gmail.ta.pages.MainPage;
+import com.gmail.ta.pages.InitialPage;
+import com.gmail.ta.pages.SignInPage;
 
-public class MoveEmailToSpam extends TestData{
 
+public class MoveEmailToSpam extends TestingData{
+	
+	private final Logger logger = Logger.getLogger(MoveEmailToSpam.class);
+	
 	@Test
 	public void checkEmailAndPutItToSpam() throws InterruptedException {
 		System.setProperty("webdriver.chrome.driver", "c:/Selenium/chromedriver.exe");
@@ -21,8 +25,9 @@ public class MoveEmailToSpam extends TestData{
 		initialpage.openPage(URL);
 		SignInPage signinpage = new SignInPage(driver);
 		signinpage.signIn(SECONDEMAIL, SECONDPASSWORD);
-		HomePage homepage = new HomePage(driver);
+		MainPage homepage = new MainPage(driver);
 		homepage.moveMailToSpam();
+		logger.info("Emal has been moved to Spam folder");
 		driver.close();
 		
 	}

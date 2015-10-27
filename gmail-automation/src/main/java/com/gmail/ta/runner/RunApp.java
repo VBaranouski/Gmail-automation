@@ -1,10 +1,10 @@
-package com.gmail.automation.hometask;
+package com.gmail.ta.runner;
 
 /**
  * Hello world!
  *
  */
-public class App 
+public class RunApp 
 {
     public static void main( String[] args )
     {

@@ -1,6 +1,6 @@
-package com.gmail.automation.hometask.tests;
+package com.gmail.ta.tests;
 
-public class TestData {
+public abstract class TestingData {
 
 	protected final String URL = "https://mail.google.com";
 	

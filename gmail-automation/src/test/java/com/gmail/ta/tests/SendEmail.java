@@ -1,4 +1,4 @@
-package com.gmail.automation.hometask.tests;
+package com.gmail.ta.tests;
 
 import java.util.concurrent.TimeUnit;
 
@@ -6,11 +6,12 @@ import org.junit.Test;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
-import com.gmail.automation.hometask.pages.InitialPage;
-import com.gmail.automation.hometask.pages.SendingEmail;
-import com.gmail.automation.hometask.pages.SignInPage;
+import com.gmail.ta.pages.InitialPage;
+import com.gmail.ta.pages.SendingEmail;
+import com.gmail.ta.pages.SignInPage;
 
-public class SendEmail extends TestData {
+
+public class SendEmail extends TestingData {
 	
 	@Test
 	public void sendEmailToSecondUser() {

@@ -1,5 +1,6 @@
-package com.gmail.automation.hometask.pages;
+package com.gmail.ta.pages;
 
+import org.apache.log4j.Logger;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -7,6 +8,8 @@ import org.openqa.selenium.support.PageFactory;
 
 public class SignInPage {
 
+	private final Logger logger = Logger.getLogger(SignInPage.class);
+	
 	@FindBy(id = "Email")
 	private WebElement emailField;
 
@@ -27,11 +30,12 @@ public class SignInPage {
 		PageFactory.initElements(driver, this);
 	}
 
-	public HomePage signIn(String email, String password) {
+	public MainPage signIn(String email, String password) {
 		emailField.sendKeys(email);
 		nextButton.click();
 		passwordField.sendKeys(password);
 		signInButton.click();
-		return new HomePage(driver);
+		logger.info("Login was successful");
+		return new MainPage(driver);
 	}
 }

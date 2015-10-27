@@ -1,12 +1,15 @@
-package com.gmail.automation.hometask.pages;
+package com.gmail.ta.pages;
 
+import org.apache.log4j.Logger;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-public class SendingEmail extends HomePage {
+public class SendingEmail extends MainPage {
 
+	private final Logger logger = Logger.getLogger(SendingEmail.class);
+	
 	@FindBy(xpath = "//*[.='COMPOSE']")
 	private WebElement composeButton;
 
@@ -30,6 +33,7 @@ public class SendingEmail extends HomePage {
 		emailToField.sendKeys("vlad.autotest2@gmail.com");
 		emailSubjectField.sendKeys("Hey hey hey");
 		emailSendButton.click();
+		logger.info("Email to second user has been sent");
 
 	}
 

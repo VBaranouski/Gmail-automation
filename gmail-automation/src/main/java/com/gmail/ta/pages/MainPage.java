@@ -1,14 +1,18 @@
-package com.gmail.automation.hometask.pages;
+package com.gmail.ta.pages;
 
 import java.util.concurrent.TimeUnit;
 
+import org.apache.log4j.Logger;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-public class HomePage {
 
+public class MainPage {
+	
+	private final Logger logger = Logger.getLogger(MainPage.class);
+	
 	@FindBy(xpath = "//*[@class='CJ']")
 	private WebElement moreButton;
 
@@ -32,7 +36,7 @@ public class HomePage {
 
 	private WebDriver driver;
 
-	public HomePage(WebDriver driver) {
+	public MainPage(WebDriver driver) {
 		this.driver = driver;
 		PageFactory.initElements(driver, this);
 	}
@@ -50,17 +54,21 @@ public class HomePage {
 	public void moveMailToSpam() {
 		if (textInEmptyInbox.isDisplayed()) {
 			System.out.println("Didn't find your mail in Inbox");
+			logger.error("Inbox folder is empty");
 		} else {
 			nameWhoSentEmail.click();
+			logger.info("Confirming that Email is recived");
 			reportSpam.click();
 			justSpamButton.click();
 			driver.manage().timeouts().implicitlyWait(1, TimeUnit.SECONDS);
+			logger.info("Email has been marked as SPAM");
 		}
 	}
 
 	public void openSpam() {
 		moreButton.click();
 		spamButton.click();
+		logger.info("Open Spam folder");
 	}
 
 }
