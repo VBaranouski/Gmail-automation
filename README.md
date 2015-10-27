@@ -11,6 +11,7 @@ Automate the following test case:
 6. Send letter to user2
 7. Login user2
 8. Go to folder: Spam"
+
 Check that the letter from user1 in Spam
 
 Use Page Factory pattern.
