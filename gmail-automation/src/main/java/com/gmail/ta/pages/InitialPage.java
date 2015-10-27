@@ -10,9 +10,10 @@ public class InitialPage {
 	
 	private static final Logger LOGGER = Logger.getLogger(InitialPage.class);
 	
-	@FindBy(id = "gmail-sign-in")
+	@FindBy(id = "gmail-sign-in")  //not using at this time
 	private WebElement buttonSubmit;
 
+	
 	private WebDriver driver;
 	SignInPage signin = new SignInPage(driver);
 
@@ -23,7 +24,7 @@ public class InitialPage {
 
 	public SignInPage openPage(String URL) {
 		driver.get(URL);
-		LOGGER.info("Login page opened");
+		LOGGER.info("Sign In page opened");
 		return new SignInPage(driver);
 	}
 }

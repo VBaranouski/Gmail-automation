@@ -13,7 +13,6 @@ public class SendingEmail extends MainPage {
 	private static final String EMAIL = "vlad.autotest4@gmail.com";
 	private static final String SUBJECT = "Hey hey hey";
 	
-	
 	@FindBy(xpath = "//*[.='COMPOSE']")
 	private WebElement composeButton;
 

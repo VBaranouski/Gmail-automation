@@ -3,6 +3,7 @@ package com.gmail.ta.pages;
 import java.util.concurrent.TimeUnit;
 
 import org.apache.log4j.Logger;
+import org.eclipse.jetty.util.annotation.Name;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -13,10 +14,11 @@ public class MainPage {
 	
 	private static final Logger LOGGER = Logger.getLogger(MainPage.class);
 	
+	//@Name("More") - doesn't work... 
 	@FindBy(xpath = "//*[@class='CJ']")
 	private WebElement moreButton;
-
-	@FindBy(xpath = "//a[@href='https://mail.google.com/mail/#spam']")
+	
+	@FindBy(xpath = "//a[contains(@href,'/#spam')]")
 	private WebElement spamButton;
 
 	@FindBy(xpath = "//*[@class = 'F cf zt']//tr[1]//td[4]")
@@ -55,6 +57,7 @@ public class MainPage {
 		if (textInEmptyInbox.isDisplayed()) {
 			System.out.println("Didn't find your mail in Inbox");
 			LOGGER.error("Inbox folder is empty");
+			LOGGER.info("Reason: Email automatically marked as SPAM");
 		} else {
 			nameWhoSentEmail.click();
 			LOGGER.info("Confirming that Email is recived");

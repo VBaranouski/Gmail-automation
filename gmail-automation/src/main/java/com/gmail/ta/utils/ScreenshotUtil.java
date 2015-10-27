@@ -13,7 +13,7 @@ import org.openqa.selenium.WebDriver;
 
 public class ScreenshotUtil {
 
-	private static final Logger logger = Logger.getLogger(ScreenshotUtil.class);
+	private static final Logger LOGGER= Logger.getLogger(ScreenshotUtil.class);
 	private static final String PREFIX= "scr";
 	private static final SimpleDateFormat DATE = new SimpleDateFormat("dd.MMM.yyyy-HH.mm.ss[SSS]");
 
@@ -21,11 +21,11 @@ public class ScreenshotUtil {
 
 		File scrFile = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
 		try {
-			FileUtils.copyFile(scrFile, new File("test-output/html/screenshots" + PREFIX
+			FileUtils.copyFile(scrFile, new File("test-output/html/screenshots/" + PREFIX + "-" 
 					+ DATE.format(new Date(System.currentTimeMillis())) + ".png"));
-			logger.info(String.format("Taken screenshot <a href='screenshots/%1$s'>%1$s</a>", scrFile.getName()));
+			LOGGER.info(String.format("Screenshot captured"));
 		} catch (IOException e) {
-			logger.error("Error during taking screenshot", e);
+			LOGGER.error("Error during taking screenshot", e);
 			e.printStackTrace();
 		}
 	}
