@@ -8,7 +8,11 @@ import org.openqa.selenium.support.PageFactory;
 
 public class SendingEmail extends MainPage {
 
-	private final Logger logger = Logger.getLogger(SendingEmail.class);
+	private static final Logger LOGGER = Logger.getLogger(SendingEmail.class);
+	
+	private static final String EMAIL = "vlad.autotest4@gmail.com";
+	private static final String SUBJECT = "Hey hey hey";
+	
 	
 	@FindBy(xpath = "//*[.='COMPOSE']")
 	private WebElement composeButton;
@@ -30,10 +34,10 @@ public class SendingEmail extends MainPage {
 		
 	public void sendMessage() {
 		composeButton.click();
-		emailToField.sendKeys("vlad.autotest2@gmail.com");
-		emailSubjectField.sendKeys("Hey hey hey");
+		emailToField.sendKeys(EMAIL);
+		emailSubjectField.sendKeys(SUBJECT);
 		emailSendButton.click();
-		logger.info("Email to second user has been sent");
+		LOGGER.info("Email to second user has been sent");
 
 	}
 

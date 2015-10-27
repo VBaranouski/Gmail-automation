@@ -7,29 +7,28 @@ import org.junit.Test;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
-import com.gmail.ta.pages.MainPage;
 import com.gmail.ta.pages.InitialPage;
+import com.gmail.ta.pages.SendingEmail;
 import com.gmail.ta.pages.SignInPage;
 
 
-public class MoveEmailToSpam extends TestingData{
+
+public class SendEmailTest extends TestingDataFile {
 	
-	private final Logger logger = Logger.getLogger(MoveEmailToSpam.class);
+	private static final Logger LOGGER = Logger.getLogger(SendEmailTest.class);
 	
 	@Test
-	public void checkEmailAndPutItToSpam() throws InterruptedException {
+	public void sendEmailToSecondUser() {
 		System.setProperty("webdriver.chrome.driver", "c:/Selenium/chromedriver.exe");
 		WebDriver driver = new ChromeDriver();	
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		InitialPage initialpage = new InitialPage(driver);
 		initialpage.openPage(URL);
 		SignInPage signinpage = new SignInPage(driver);
-		signinpage.signIn(SECONDEMAIL, SECONDPASSWORD);
-		MainPage homepage = new MainPage(driver);
-		homepage.moveMailToSpam();
-		logger.info("Emal has been moved to Spam folder");
+		signinpage.signIn(EMAIL, PASSWORD);
+		LOGGER.info("Login was succesful");
+		SendingEmail sendmail = new SendingEmail(driver);
+		sendmail.sendMessage();
 		driver.close();
-		
 	}
-	
 }

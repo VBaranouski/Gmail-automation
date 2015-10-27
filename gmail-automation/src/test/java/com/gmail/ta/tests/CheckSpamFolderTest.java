@@ -10,13 +10,15 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
 import com.gmail.ta.pages.MainPage;
+
 import com.gmail.ta.pages.InitialPage;
 import com.gmail.ta.pages.SignInPage;
+import com.gmail.ta.utils.ScreenshotUtil;
 
 
-public class CheckSpamFolder extends TestingData{
+public class CheckSpamFolderTest extends TestingDataFile{
 	
-	private final Logger logger = Logger.getLogger(CheckSpamFolder.class);
+	private static final Logger LOGGER = Logger.getLogger(CheckSpamFolderTest.class);
 	
 	@Test
 	public void checkSpamFolder() {
@@ -31,7 +33,8 @@ public class CheckSpamFolder extends TestingData{
 			homepage.openSpam();
 			String actualEmailSubject = homepage.getEmailSubject();
 			assertEquals(SUBJECT, actualEmailSubject);
-			logger.info("Email was found in SPAM folder");
+			ScreenshotUtil.takeScreenshot(driver);
+			LOGGER.info("Email was found in SPAM folder");
 			driver.close();
 	}
 

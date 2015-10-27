@@ -8,7 +8,7 @@ import org.openqa.selenium.support.PageFactory;
 
 public class SignInPage {
 
-	private final Logger logger = Logger.getLogger(SignInPage.class);
+	private static final Logger LOGGER = Logger.getLogger(SignInPage.class);
 	
 	@FindBy(id = "Email")
 	private WebElement emailField;
@@ -31,11 +31,11 @@ public class SignInPage {
 	}
 
 	public MainPage signIn(String email, String password) {
+		LOGGER.info("Trying to login");
 		emailField.sendKeys(email);
 		nextButton.click();
 		passwordField.sendKeys(password);
 		signInButton.click();
-		logger.info("Login was successful");
 		return new MainPage(driver);
 	}
 }

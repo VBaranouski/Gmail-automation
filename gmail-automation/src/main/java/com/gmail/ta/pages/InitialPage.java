@@ -8,7 +8,7 @@ import org.openqa.selenium.support.PageFactory;
 
 public class InitialPage {
 	
-	private final Logger logger = Logger.getLogger(InitialPage.class);
+	private static final Logger LOGGER = Logger.getLogger(InitialPage.class);
 	
 	@FindBy(id = "gmail-sign-in")
 	private WebElement buttonSubmit;
@@ -23,7 +23,7 @@ public class InitialPage {
 
 	public SignInPage openPage(String URL) {
 		driver.get(URL);
-		logger.info("Login page opened");
+		LOGGER.info("Login page opened");
 		return new SignInPage(driver);
 	}
 }
