@@ -3,6 +3,7 @@
 Create 2 accounts on Gmail.com
 
 Automate the following test case:
+
 1. Login as registered user1
 2. Send message to user2
 3. Login as registered user2
