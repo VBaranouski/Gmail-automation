@@ -6,7 +6,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-public class SignInPage {
+public class SignInPage extends AbstractGmailPage {
 
 	private static final Logger LOGGER = Logger.getLogger(SignInPage.class);
 	
