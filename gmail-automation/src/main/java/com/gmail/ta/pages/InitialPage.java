@@ -22,9 +22,9 @@ public class InitialPage extends AbstractGmailPage {
 		PageFactory.initElements(driver, this);
 	}
 
-	public SignInPage openPage(String URL) {
+	public WebDriver openPage(String URL) {
 		driver.get(URL);
 		LOGGER.info("Sign In page opened");
-		return new SignInPage(driver);
+		return driver;
 	}
 }

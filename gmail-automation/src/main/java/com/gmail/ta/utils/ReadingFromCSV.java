@@ -1,14 +1,12 @@
 package com.gmail.ta.utils;
 
-import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
 
 import org.apache.log4j.Logger;
+import org.openqa.selenium.WebDriver;
 
-import com.gmail.ta.pages.SendingEmail;
 import com.opencsv.CSVReader;
-
 
 public class ReadingFromCSV {
 	
@@ -43,8 +41,10 @@ public class ReadingFromCSV {
 		this.password = password;
 	}
 	
+	
 	private static final Logger LOGGER = Logger.getLogger(ReadingFromCSV.class);
 	private static String CSV_Path = "src\\main\\resources\\Users.csv";
+	private WebDriver driver;
 	
 	public void readFromCSV() throws IOException {
 
@@ -56,7 +56,9 @@ public class ReadingFromCSV {
 		 setSecondEmail(csvCell[2]);
 		 setSecondPassword(csvCell[3]);
 		 LOGGER.info("Reading data from CSV file");
-	 } 
+		 
+	 }
+	 
 			
 	}
 	
