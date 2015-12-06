@@ -34,7 +34,7 @@ public class SendEmailTest extends AbstractGmailPage {
 		reader.readFromCSV();
 		SignInPage signinpage = new SignInPage(driver);
 		signinpage.signIn(reader.getEmail(), reader.getPassword());
-		LOGGER.info("Login was succesful");
+		LOGGER.info("Login was successful");
 		SendingEmail sendmail = new SendingEmail(driver);
 		sendmail.sendMessage();
 	}

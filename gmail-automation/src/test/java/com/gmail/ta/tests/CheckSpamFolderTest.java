@@ -40,7 +40,7 @@ public class CheckSpamFolderTest extends AbstractGmailPage {
 			reader.readFromCSV();			
 			SignInPage signinpage = new SignInPage(driver);
 			signinpage.signIn(reader.getSecondEmail(), reader.getSecondPassword());
-			LOGGER.info("Login was succesful");
+			LOGGER.info("Login was successful");
 			MainPage homepage = new MainPage(driver);
 			homepage.openSpam();
 			String actualEmailSubject = homepage.getEmailSubject();
