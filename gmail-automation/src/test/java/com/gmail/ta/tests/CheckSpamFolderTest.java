@@ -6,11 +6,10 @@ import java.io.IOException;
 
 import org.apache.log4j.Logger;
 import org.junit.After;
-import org.junit.Before;
 import org.junit.Test;
 import org.openqa.selenium.WebDriver;
 
-import com.gmail.ta.core.webdriver.BrowserSingleton;
+import com.gmail.ta.core.webdriver.Browser;
 import com.gmail.ta.pages.AbstractGmailPage;
 import com.gmail.ta.pages.InitialPage;
 import com.gmail.ta.pages.MainPage;
@@ -25,15 +24,16 @@ public class CheckSpamFolderTest extends AbstractGmailPage {
 	
 	@After
 	public void closeBrowser() {
-		WebDriver driver = BrowserSingleton.getInstance();
+		WebDriver driver = Browser.getInstance();
 		ScreenshotUtil.takeScreenshot(driver);
-		BrowserSingleton.closeDriver();
+		Browser.closeDriver();
 	}
 	
 	
 	@Test
 	public void checkSpamFolder() throws IOException {
-			WebDriver driver = BrowserSingleton.initChromeBrowser();
+			WebDriver driver = Browser.initChromeBrowser();
+			
 			InitialPage initialpage = new InitialPage(driver);
 			initialpage.openPage(URL);
 			ReadingFromCSV reader = new ReadingFromCSV();

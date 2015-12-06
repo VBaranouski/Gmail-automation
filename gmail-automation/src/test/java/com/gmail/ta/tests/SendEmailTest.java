@@ -7,7 +7,8 @@ import org.junit.After;
 import org.junit.Test;
 import org.openqa.selenium.WebDriver;
 
-import com.gmail.ta.core.webdriver.BrowserSingleton;
+import com.gmail.ta.core.webdriver.Browser;
+import com.gmail.ta.core.webdriver.Decorator;
 import com.gmail.ta.pages.AbstractGmailPage;
 import com.gmail.ta.pages.InitialPage;
 import com.gmail.ta.pages.SendingEmail;
@@ -21,12 +22,12 @@ public class SendEmailTest extends AbstractGmailPage {
 	
 	@After
 	public void closeBrowser() {
-		BrowserSingleton.closeDriver();		
+		Browser.closeDriver();		
 	}
 			
 	@Test
 	public void sendEmailToSecondUser() throws IOException {
-		WebDriver driver = BrowserSingleton.initChromeBrowser();
+		WebDriver driver = Browser.initChromeBrowser();
 		InitialPage initialpage = new InitialPage(driver);
 		initialpage.openPage(URL);
 		ReadingFromCSV reader = new ReadingFromCSV();
