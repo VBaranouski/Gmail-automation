@@ -1,12 +1,11 @@
 package com.gmail.ta.utils;
 
-import java.io.FileReader;
-import java.io.IOException;
-
+import au.com.bytecode.opencsv.CSVReader;
 import org.apache.log4j.Logger;
 import org.openqa.selenium.WebDriver;
 
-import com.opencsv.CSVReader;
+import java.io.FileReader;
+import java.io.IOException;
 
 public class ReadingFromCSV {
 	
@@ -43,12 +42,12 @@ public class ReadingFromCSV {
 	
 	
 	private static final Logger LOGGER = Logger.getLogger(ReadingFromCSV.class);
-	private static String CSV_Path = "src\\main\\resources\\Users.csv";
+	private static String CSV_Path = "src/main/resources/Users.csv";
 	private WebDriver driver;
 	
 	public void readFromCSV() throws IOException {
 
-	CSVReader reader = new CSVReader(new FileReader(CSV_Path));	
+    CSVReader reader = new CSVReader(new FileReader(CSV_Path));
 	String [] csvCell;	
 		 while ((csvCell = reader.readNext()) != null) {   
 		 setEmail(csvCell[0]);
@@ -58,7 +57,7 @@ public class ReadingFromCSV {
 		 LOGGER.info("Reading data from CSV file");
 		 
 	 }
-	 
+
 			
 	}
 	

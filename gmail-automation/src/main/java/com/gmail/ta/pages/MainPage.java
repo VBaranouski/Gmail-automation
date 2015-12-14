@@ -1,13 +1,14 @@
 package com.gmail.ta.pages;
 
-import java.util.concurrent.TimeUnit;
-
 import org.apache.log4j.Logger;
-import org.eclipse.jetty.util.annotation.Name;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+
+import java.util.concurrent.TimeUnit;
+
+import static com.gmail.ta.utils.HighlightElement.highlightElement;
 
 
 public class MainPage extends AbstractGmailPage{
@@ -71,6 +72,7 @@ public class MainPage extends AbstractGmailPage{
 	public void openSpam() {
 		moreButton.click();
 		spamButton.click();
+		highlightElement(driver, emailSubject);
 		LOGGER.info("Open Spam folder");
 	}
 

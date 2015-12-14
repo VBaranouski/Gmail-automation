@@ -1,0 +1,258 @@
+2015-12-09 14:31:57  INFO main Browser:initChromeBrowser:38 - Browser started
+2015-12-09 14:31:58  INFO main InitialPage:openPage:27 - Sign In page opened
+2015-12-09 14:31:58  INFO main SignInPage:signIn:34 - Trying to login
+2015-12-09 14:32:02  INFO main Browser:initChromeBrowser:38 - Browser started
+2015-12-09 14:32:03  INFO main InitialPage:openPage:27 - Sign In page opened
+2015-12-09 14:32:03  INFO main SignInPage:signIn:34 - Trying to login
+2015-12-09 14:32:03  INFO main Browser:initChromeBrowser:38 - Browser started
+2015-12-09 14:32:04  INFO main InitialPage:openPage:27 - Sign In page opened
+2015-12-09 14:32:04  INFO main SignInPage:signIn:34 - Trying to login
+2015-12-09 14:32:06  INFO main Browser:initChromeBrowser:38 - Browser started
+2015-12-09 14:32:07  INFO main InitialPage:openPage:27 - Sign In page opened
+2015-12-09 14:32:07  INFO main SignInPage:signIn:34 - Trying to login
+2015-12-09 14:37:31  INFO main Browser:initChromeBrowser:38 - Browser started
+2015-12-09 14:37:32  INFO main InitialPage:openPage:27 - Sign In page opened
+2015-12-09 14:37:34  INFO main Browser:initChromeBrowser:38 - Browser started
+2015-12-09 14:37:35  INFO main InitialPage:openPage:27 - Sign In page opened
+2015-12-09 14:37:35  INFO main Browser:initChromeBrowser:38 - Browser started
+2015-12-09 14:37:35  INFO main InitialPage:openPage:27 - Sign In page opened
+2015-12-09 14:37:37  INFO main Browser:initChromeBrowser:38 - Browser started
+2015-12-09 14:37:38  INFO main InitialPage:openPage:27 - Sign In page opened
+2015-12-09 14:38:39  INFO main Browser:initChromeBrowser:38 - Browser started
+2015-12-09 14:38:40  INFO main InitialPage:openPage:27 - Sign In page opened
+2015-12-09 14:38:40  INFO main ReadingFromCSV:readFromCSV:57 - Reading data from CSV file
+2015-12-09 14:38:40  INFO main SignInPage:signIn:34 - Trying to login
+2015-12-09 14:38:46  INFO main SendEmailTest:sendEmailToSecondUser:37 - Login was successful
+2015-12-09 14:38:47  INFO main SendingEmail:sendMessage:39 - Email to second user has been sent
+2015-12-09 14:38:49  INFO main Browser:initChromeBrowser:38 - Browser started
+2015-12-09 14:38:50  INFO main InitialPage:openPage:27 - Sign In page opened
+2015-12-09 14:38:50  INFO main ReadingFromCSV:readFromCSV:57 - Reading data from CSV file
+2015-12-09 14:38:50  INFO main SignInPage:signIn:34 - Trying to login
+2015-12-09 14:38:54  INFO main MoveEmailToSpamTest:checkEmailAndPutItToSpam:39 - Login was successful
+2015-12-09 14:38:57  INFO main MainPage:moveMailToSpam:63 - Confirming that Email is recived
+2015-12-09 14:39:14  INFO main Browser:initChromeBrowser:38 - Browser started
+2015-12-09 14:39:18  INFO main InitialPage:openPage:27 - Sign In page opened
+2015-12-09 14:39:18  INFO main ReadingFromCSV:readFromCSV:57 - Reading data from CSV file
+2015-12-09 14:39:18  INFO main SignInPage:signIn:34 - Trying to login
+2015-12-09 14:39:36  INFO main Browser:initChromeBrowser:38 - Browser started
+2015-12-09 14:39:37  INFO main InitialPage:openPage:27 - Sign In page opened
+2015-12-09 14:39:37  INFO main ReadingFromCSV:readFromCSV:57 - Reading data from CSV file
+2015-12-09 14:39:37  INFO main SignInPage:signIn:34 - Trying to login
+2015-12-09 14:39:41  INFO main CheckSpamFolderTest:checkSpamFolder:43 - Login was successful
+2015-12-09 14:39:43  INFO main MainPage:openSpam:74 - Open Spam folder
+2015-12-09 14:39:44  INFO main CheckSpamFolderTest:checkSpamFolder:47 - Comparing subjects
+2015-12-09 15:06:26  INFO main Browser:initChromeBrowser:38 - Browser started
+2015-12-09 15:06:27  INFO main InitialPage:openPage:27 - Sign In page opened
+2015-12-09 15:06:27  INFO main ReadingFromCSV:readFromCSV:57 - Reading data from CSV file
+2015-12-09 15:06:27  INFO main SignInPage:signIn:34 - Trying to login
+2015-12-09 15:06:35  INFO main SendEmailTest:sendEmailToSecondUser:37 - Login was successful
+2015-12-09 15:06:38  INFO main SendingEmail:sendMessage:39 - Email to second user has been sent
+2015-12-09 15:06:40  INFO main Browser:initChromeBrowser:38 - Browser started
+2015-12-09 15:06:41  INFO main InitialPage:openPage:27 - Sign In page opened
+2015-12-09 15:06:41  INFO main ReadingFromCSV:readFromCSV:57 - Reading data from CSV file
+2015-12-09 15:06:41  INFO main SignInPage:signIn:34 - Trying to login
+2015-12-09 15:06:45  INFO main MoveEmailToSpamTest:checkEmailAndPutItToSpam:39 - Login was successful
+2015-12-09 15:06:47  INFO main MainPage:moveMailToSpam:63 - Confirming that Email is recived
+2015-12-13 15:34:42  INFO main Browser:initChromeBrowser:38 - Browser started
+2015-12-13 15:34:43  INFO main InitialPage:openPage:27 - Sign In page opened
+2015-12-13 15:34:43  INFO main ReadingFromCSV:readFromCSV:57 - Reading data from CSV file
+2015-12-13 15:34:43  INFO main SignInPage:signIn:34 - Trying to login
+2015-12-13 15:34:48  INFO main SendEmailTest:sendEmailToSecondUser:36 - Login was successful
+2015-12-13 15:34:51  INFO main SendingEmail:sendMessage:39 - Email to second user has been sent
+2015-12-13 15:37:08  INFO main Browser:initChromeBrowser:38 - Browser started
+2015-12-13 15:37:09  INFO main InitialPage:openPage:27 - Sign In page opened
+2015-12-13 15:37:09  INFO main ReadingFromCSV:readFromCSV:57 - Reading data from CSV file
+2015-12-13 15:37:09  INFO main SignInPage:signIn:34 - Trying to login
+2015-12-13 15:37:13  INFO main SendEmailTest:sendEmailToSecondUser:36 - Login was successful
+2015-12-13 15:37:17  INFO main SendingEmail:sendMessage:39 - Email to second user has been sent
+2015-12-13 15:37:17  INFO main ScreenshotUtil:takeScreenshot:26 - Screenshot captured
+2015-12-13 21:57:42  INFO main Browser:initChromeBrowser:38 - Browser started
+2015-12-13 21:57:43  INFO main InitialPage:openPage:27 - Sign In page opened
+2015-12-13 21:57:43  INFO main ReadingFromCSV:readFromCSV:57 - Reading data from CSV file
+2015-12-13 21:57:43  INFO main SignInPage:signIn:34 - Trying to login
+2015-12-13 21:57:46  INFO main CheckSpamFolderTest:checkSpamFolder:44 - Login was successful
+2015-12-13 21:57:49  INFO main MainPage:openSpam:73 - Open Spam folder
+2015-12-13 22:12:55  INFO main Browser:initChromeBrowser:38 - Browser started
+2015-12-13 22:12:56  INFO main InitialPage:openPage:27 - Sign In page opened
+2015-12-13 22:12:56  INFO main ReadingFromCSV:readFromCSV:57 - Reading data from CSV file
+2015-12-13 22:12:56  INFO main SignInPage:signIn:34 - Trying to login
+2015-12-13 22:13:03  INFO main CheckSpamFolderTest:checkSpamFolder:44 - Login was successful
+2015-12-13 22:13:04  INFO main MainPage:openSpam:73 - Open Spam folder
+2015-12-13 22:15:10  INFO main Browser:initChromeBrowser:38 - Browser started
+2015-12-13 22:15:12  INFO main InitialPage:openPage:27 - Sign In page opened
+2015-12-13 22:15:12  INFO main ReadingFromCSV:readFromCSV:57 - Reading data from CSV file
+2015-12-13 22:15:12  INFO main SignInPage:signIn:34 - Trying to login
+2015-12-13 22:15:18  INFO main CheckSpamFolderTest:checkSpamFolder:44 - Login was successful
+2015-12-13 22:15:20  INFO main MainPage:openSpam:73 - Open Spam folder
+2015-12-13 22:18:32  INFO main Browser:initChromeBrowser:38 - Browser started
+2015-12-13 22:18:33  INFO main InitialPage:openPage:27 - Sign In page opened
+2015-12-13 22:18:33  INFO main ReadingFromCSV:readFromCSV:57 - Reading data from CSV file
+2015-12-13 22:18:33  INFO main SignInPage:signIn:34 - Trying to login
+2015-12-13 22:18:38  INFO main CheckSpamFolderTest:checkSpamFolder:44 - Login was successful
+2015-12-13 22:18:40  INFO main MainPage:openSpam:73 - Open Spam folder
+2015-12-13 23:34:36  INFO main Browser:initChromeBrowser:38 - Browser started
+2015-12-13 23:34:38  INFO main InitialPage:openPage:27 - Sign In page opened
+2015-12-13 23:34:38  INFO main ReadingFromCSV:readFromCSV:57 - Reading data from CSV file
+2015-12-13 23:34:38  INFO main SignInPage:signIn:34 - Trying to login
+2015-12-13 23:34:43  INFO main CheckSpamFolderTest:checkSpamFolder:44 - Login was successful
+2015-12-13 23:34:44  INFO main MainPage:openSpam:73 - Open Spam folder
+2015-12-13 23:38:08  INFO main Browser:initChromeBrowser:38 - Browser started
+2015-12-13 23:38:09  INFO main InitialPage:openPage:27 - Sign In page opened
+2015-12-13 23:38:09  INFO main ReadingFromCSV:readFromCSV:57 - Reading data from CSV file
+2015-12-13 23:38:09  INFO main SignInPage:signIn:34 - Trying to login
+2015-12-13 23:38:13  INFO main CheckSpamFolderTest:checkSpamFolder:44 - Login was successful
+2015-12-13 23:38:15  INFO main MainPage:openSpam:73 - Open Spam folder
+2015-12-13 23:39:54  INFO main Browser:initChromeBrowser:38 - Browser started
+2015-12-13 23:39:55  INFO main InitialPage:openPage:27 - Sign In page opened
+2015-12-13 23:39:55  INFO main ReadingFromCSV:readFromCSV:57 - Reading data from CSV file
+2015-12-13 23:39:55  INFO main SignInPage:signIn:34 - Trying to login
+2015-12-13 23:39:58  INFO main CheckSpamFolderTest:checkSpamFolder:44 - Login was successful
+2015-12-13 23:40:01  INFO main MainPage:openSpam:73 - Open Spam folder
+2015-12-13 23:50:20  INFO main Browser:initChromeBrowser:38 - Browser started
+2015-12-13 23:50:21  INFO main InitialPage:openPage:27 - Sign In page opened
+2015-12-13 23:50:21  INFO main ReadingFromCSV:readFromCSV:57 - Reading data from CSV file
+2015-12-13 23:50:21  INFO main SignInPage:signIn:34 - Trying to login
+2015-12-13 23:50:26  INFO main CheckSpamFolderTest:checkSpamFolder:44 - Login was successful
+2015-12-13 23:50:27  INFO main MainPage:openSpam:73 - Open Spam folder
+2015-12-13 23:50:52  INFO main Browser:initChromeBrowser:38 - Browser started
+2015-12-13 23:50:53  INFO main InitialPage:openPage:27 - Sign In page opened
+2015-12-13 23:50:53  INFO main ReadingFromCSV:readFromCSV:57 - Reading data from CSV file
+2015-12-13 23:50:53  INFO main SignInPage:signIn:34 - Trying to login
+2015-12-13 23:50:53  INFO main CheckSpamFolderTest:checkSpamFolder:44 - Login was successful
+2015-12-13 23:50:58  INFO main MainPage:openSpam:73 - Open Spam folder
+2015-12-13 23:54:09  INFO main Browser:initChromeBrowser:38 - Browser started
+2015-12-13 23:54:10  INFO main InitialPage:openPage:27 - Sign In page opened
+2015-12-13 23:54:10  INFO main ReadingFromCSV:readFromCSV:57 - Reading data from CSV file
+2015-12-13 23:54:10  INFO main SignInPage:signIn:34 - Trying to login
+2015-12-13 23:54:15  INFO main CheckSpamFolderTest:checkSpamFolder:44 - Login was successful
+2015-12-13 23:54:15  INFO main MainPage:openSpam:73 - Open Spam folder
+2015-12-13 23:56:32  INFO main Browser:initChromeBrowser:38 - Browser started
+2015-12-13 23:56:33  INFO main InitialPage:openPage:27 - Sign In page opened
+2015-12-13 23:56:33  INFO main ReadingFromCSV:readFromCSV:57 - Reading data from CSV file
+2015-12-13 23:56:33  INFO main SignInPage:signIn:34 - Trying to login
+2015-12-13 23:56:38  INFO main CheckSpamFolderTest:checkSpamFolder:44 - Login was successful
+2015-12-13 23:56:39  INFO main MainPage:openSpam:73 - Open Spam folder
+2015-12-13 23:57:06  INFO main Browser:initChromeBrowser:38 - Browser started
+2015-12-13 23:57:07  INFO main InitialPage:openPage:27 - Sign In page opened
+2015-12-13 23:57:07  INFO main ReadingFromCSV:readFromCSV:57 - Reading data from CSV file
+2015-12-13 23:57:07  INFO main SignInPage:signIn:34 - Trying to login
+2015-12-13 23:57:10  INFO main CheckSpamFolderTest:checkSpamFolder:44 - Login was successful
+2015-12-13 23:57:13  INFO main MainPage:openSpam:73 - Open Spam folder
+2015-12-14 13:40:40  INFO main Browser:initChromeBrowser:38 - Browser started
+2015-12-14 13:40:41  INFO main InitialPage:openPage:27 - Sign In page opened
+2015-12-14 13:40:41  INFO main ReadingFromCSV:readFromCSV:57 - Reading data from CSV file
+2015-12-14 13:40:41  INFO main SignInPage:signIn:34 - Trying to login
+2015-12-14 13:40:46  INFO main CheckSpamFolderTest:checkSpamFolder:44 - Login was successful
+2015-12-14 13:40:47  INFO main MainPage:openSpam:73 - Open Spam folder
+2015-12-14 13:45:28  INFO main Browser:initChromeBrowser:38 - Browser started
+2015-12-14 13:45:29  INFO main InitialPage:openPage:27 - Sign In page opened
+2015-12-14 13:45:29  INFO main ReadingFromCSV:readFromCSV:57 - Reading data from CSV file
+2015-12-14 13:45:29  INFO main SignInPage:signIn:34 - Trying to login
+2015-12-14 13:45:34  INFO main CheckSpamFolderTest:checkSpamFolder:44 - Login was successful
+2015-12-14 13:45:35  INFO main MainPage:openSpam:73 - Open Spam folder
+2015-12-14 13:45:35  INFO main CheckSpamFolderTest:checkSpamFolder:50 - Comparing subjects
+2015-12-14 13:46:05  INFO main Browser:initChromeBrowser:38 - Browser started
+2015-12-14 13:46:06  INFO main InitialPage:openPage:27 - Sign In page opened
+2015-12-14 13:46:06  INFO main ReadingFromCSV:readFromCSV:57 - Reading data from CSV file
+2015-12-14 13:46:06  INFO main SignInPage:signIn:34 - Trying to login
+2015-12-14 13:46:11  INFO main CheckSpamFolderTest:checkSpamFolder:44 - Login was successful
+2015-12-14 13:46:12  INFO main MainPage:openSpam:73 - Open Spam folder
+2015-12-14 13:46:12  INFO main CheckSpamFolderTest:checkSpamFolder:50 - Comparing subjects
+2015-12-14 13:46:12  INFO main CheckSpamFolderTest:checkSpamFolder:52 - Email was found in SPAM folder
+2015-12-14 13:48:20  INFO main Browser:initChromeBrowser:38 - Browser started
+2015-12-14 13:48:21  INFO main InitialPage:openPage:27 - Sign In page opened
+2015-12-14 13:48:21  INFO main ReadingFromCSV:readFromCSV:57 - Reading data from CSV file
+2015-12-14 13:48:21  INFO main SignInPage:signIn:34 - Trying to login
+2015-12-14 13:48:25  INFO main CheckSpamFolderTest:checkSpamFolder:44 - Login was successful
+2015-12-14 13:48:27  INFO main MainPage:openSpam:73 - Open Spam folder
+2015-12-14 13:48:27  INFO main CheckSpamFolderTest:checkSpamFolder:50 - Comparing subjects
+2015-12-14 13:48:27  INFO main CheckSpamFolderTest:checkSpamFolder:52 - Email was found in SPAM folder
+2015-12-14 13:50:51  INFO main Browser:initChromeBrowser:38 - Browser started
+2015-12-14 13:50:52  INFO main InitialPage:openPage:27 - Sign In page opened
+2015-12-14 13:50:52  INFO main ReadingFromCSV:readFromCSV:57 - Reading data from CSV file
+2015-12-14 13:50:52  INFO main SignInPage:signIn:34 - Trying to login
+2015-12-14 13:50:58  INFO main CheckSpamFolderTest:checkSpamFolder:40 - Login was successful
+2015-12-14 13:50:58  INFO main MainPage:openSpam:73 - Open Spam folder
+2015-12-14 13:50:58  INFO main CheckSpamFolderTest:checkSpamFolder:46 - Comparing subjects
+2015-12-14 13:50:58  INFO main CheckSpamFolderTest:checkSpamFolder:48 - Email was found in SPAM folder
+2015-12-14 13:52:42  INFO main Browser:initChromeBrowser:38 - Browser started
+2015-12-14 13:52:44  INFO main InitialPage:openPage:27 - Sign In page opened
+2015-12-14 13:52:44  INFO main ReadingFromCSV:readFromCSV:57 - Reading data from CSV file
+2015-12-14 13:52:44  INFO main SignInPage:signIn:34 - Trying to login
+2015-12-14 13:52:48  INFO main CheckSpamFolderTest:checkSpamFolder:41 - Login was successful
+2015-12-14 13:52:49  INFO main MainPage:openSpam:73 - Open Spam folder
+2015-12-14 13:52:50  INFO main CheckSpamFolderTest:checkSpamFolder:47 - Comparing subjects
+2015-12-14 13:52:50  INFO main CheckSpamFolderTest:checkSpamFolder:49 - Email was found in SPAM folder
+2015-12-14 13:53:49  INFO main Browser:initChromeBrowser:38 - Browser started
+2015-12-14 13:53:50  INFO main InitialPage:openPage:27 - Sign In page opened
+2015-12-14 13:53:50  INFO main ReadingFromCSV:readFromCSV:57 - Reading data from CSV file
+2015-12-14 13:53:50  INFO main SignInPage:signIn:34 - Trying to login
+2015-12-14 13:53:54  INFO main CheckSpamFolderTest:checkSpamFolder:42 - Login was successful
+2015-12-14 13:53:56  INFO main MainPage:openSpam:73 - Open Spam folder
+2015-12-14 13:53:56  INFO main CheckSpamFolderTest:checkSpamFolder:48 - Comparing subjects
+2015-12-14 13:53:56  INFO main CheckSpamFolderTest:checkSpamFolder:50 - Email was found in SPAM folder
+2015-12-14 13:53:57  INFO main ScreenshotUtil:takeScreenshot:26 - Screenshot captured
+2015-12-14 14:05:39  INFO main Browser:initChromeBrowser:38 - Browser started
+2015-12-14 14:05:40  INFO main InitialPage:openPage:27 - Sign In page opened
+2015-12-14 14:05:40  INFO main ReadingFromCSV:readFromCSV:57 - Reading data from CSV file
+2015-12-14 14:05:40  INFO main SignInPage:signIn:34 - Trying to login
+2015-12-14 14:05:41  INFO main CheckSpamFolderTest:checkSpamFolder:39 - Login was successful
+2015-12-14 14:05:54  INFO main Browser:initChromeBrowser:38 - Browser started
+2015-12-14 14:05:55  INFO main InitialPage:openPage:27 - Sign In page opened
+2015-12-14 14:05:55  INFO main ReadingFromCSV:readFromCSV:57 - Reading data from CSV file
+2015-12-14 14:05:55  INFO main SignInPage:signIn:34 - Trying to login
+2015-12-14 14:06:00  INFO main MoveEmailToSpamTest:checkEmailAndPutItToSpam:41 - Login was successful
+2015-12-14 14:06:02  INFO main MainPage:moveMailToSpam:62 - Confirming that Email is recived
+2015-12-14 14:11:43  INFO main Browser:initChromeBrowser:38 - Browser started
+2015-12-14 14:11:44  INFO main InitialPage:openPage:27 - Sign In page opened
+2015-12-14 14:11:44  INFO main ReadingFromCSV:readFromCSV:57 - Reading data from CSV file
+2015-12-14 14:11:44  INFO main SignInPage:signIn:34 - Trying to login
+2015-12-14 14:11:45  INFO main CheckSpamFolderTest:checkSpamFolder:39 - Login was successful
+2015-12-14 14:11:50  INFO main MainPage:openSpam:76 - Open Spam folder
+2015-12-14 14:11:50  INFO main CheckSpamFolderTest:checkSpamFolder:43 - Comparing subjects
+2015-12-14 14:12:25  INFO main Browser:initChromeBrowser:38 - Browser started
+2015-12-14 14:12:26  INFO main InitialPage:openPage:27 - Sign In page opened
+2015-12-14 14:12:26  INFO main ReadingFromCSV:readFromCSV:57 - Reading data from CSV file
+2015-12-14 14:12:26  INFO main SignInPage:signIn:34 - Trying to login
+2015-12-14 14:12:30  INFO main SendEmailTest:sendEmailToSecondUser:36 - Login was successful
+2015-12-14 14:12:33  INFO main SendingEmail:sendMessage:39 - Email to second user has been sent
+2015-12-14 14:12:34  INFO main ScreenshotUtil:takeScreenshot:26 - Screenshot captured
+2015-12-14 14:13:18  INFO main Browser:initChromeBrowser:38 - Browser started
+2015-12-14 14:13:19  INFO main InitialPage:openPage:27 - Sign In page opened
+2015-12-14 14:13:19  INFO main ReadingFromCSV:readFromCSV:57 - Reading data from CSV file
+2015-12-14 14:13:19  INFO main SignInPage:signIn:34 - Trying to login
+2015-12-14 14:13:21  INFO main MoveEmailToSpamTest:checkEmailAndPutItToSpam:37 - Login was successful
+2015-12-14 14:13:22 ERROR main MainPage:moveMailToSpam:60 - Inbox folder is empty
+2015-12-14 14:13:22  INFO main MainPage:moveMailToSpam:61 - Reason: Email automatically marked as SPAM
+2015-12-14 14:13:25  INFO main ScreenshotUtil:takeScreenshot:26 - Screenshot captured
+2015-12-14 14:13:25  INFO main MoveEmailToSpamTest:checkEmailAndPutItToSpam:41 - Emal has been moved to Spam folder
+2015-12-14 14:13:37  INFO main Browser:initChromeBrowser:38 - Browser started
+2015-12-14 14:13:38  INFO main InitialPage:openPage:27 - Sign In page opened
+2015-12-14 14:13:38  INFO main ReadingFromCSV:readFromCSV:57 - Reading data from CSV file
+2015-12-14 14:13:38  INFO main SignInPage:signIn:34 - Trying to login
+2015-12-14 14:13:42  INFO main CheckSpamFolderTest:checkSpamFolder:39 - Login was successful
+2015-12-14 14:13:45  INFO main MainPage:openSpam:76 - Open Spam folder
+2015-12-14 14:13:45  INFO main CheckSpamFolderTest:checkSpamFolder:43 - Comparing subjects
+2015-12-14 14:14:14  INFO main Browser:initChromeBrowser:38 - Browser started
+2015-12-14 14:14:15  INFO main InitialPage:openPage:27 - Sign In page opened
+2015-12-14 14:14:15  INFO main ReadingFromCSV:readFromCSV:57 - Reading data from CSV file
+2015-12-14 14:14:15  INFO main SignInPage:signIn:34 - Trying to login
+2015-12-14 14:14:21  INFO main CheckSpamFolderTest:checkSpamFolder:39 - Login was successful
+2015-12-14 14:14:21  INFO main MainPage:openSpam:76 - Open Spam folder
+2015-12-14 14:14:21  INFO main CheckSpamFolderTest:checkSpamFolder:43 - Comparing subjects
+2015-12-14 14:14:21  INFO main CheckSpamFolderTest:checkSpamFolder:45 - Email was found in SPAM folder
+2015-12-14 14:14:22  INFO main ScreenshotUtil:takeScreenshot:26 - Screenshot captured
+2015-12-14 14:17:05  INFO main Browser:initChromeBrowser:38 - Browser started
+2015-12-14 14:17:06  INFO main InitialPage:openPage:27 - Sign In page opened
+2015-12-14 14:17:06  INFO main ReadingFromCSV:readFromCSV:57 - Reading data from CSV file
+2015-12-14 14:17:06  INFO main SignInPage:signIn:34 - Trying to login
+2015-12-14 14:17:09  INFO main CheckSpamFolderTest:checkSpamFolder:38 - Login was successful
+2015-12-14 14:17:12  INFO main ScreenshotUtil:takeScreenshot:26 - Screenshot captured
+2015-12-14 14:17:12  INFO main MainPage:openSpam:76 - Open Spam folder
+2015-12-14 14:17:12  INFO main CheckSpamFolderTest:checkSpamFolder:42 - Comparing subjects
+2015-12-14 14:17:12  INFO main CheckSpamFolderTest:checkSpamFolder:44 - Email was found in SPAM folder
+2015-12-14 14:18:13  INFO main Browser:initChromeBrowser:38 - Browser started
+2015-12-14 14:18:14  INFO main InitialPage:openPage:27 - Sign In page opened
+2015-12-14 14:18:14  INFO main ReadingFromCSV:readFromCSV:57 - Reading data from CSV file
+2015-12-14 14:18:14  INFO main SignInPage:signIn:34 - Trying to login
+2015-12-14 14:18:18  INFO main CheckSpamFolderTest:checkSpamFolder:38 - Login was successful

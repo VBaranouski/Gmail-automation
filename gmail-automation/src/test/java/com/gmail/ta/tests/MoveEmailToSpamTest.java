@@ -1,12 +1,5 @@
 package com.gmail.ta.tests;
 
-import java.io.IOException;
-
-import org.apache.log4j.Logger;
-import org.junit.After;
-import org.junit.Test;
-import org.openqa.selenium.WebDriver;
-
 import com.gmail.ta.core.webdriver.Browser;
 import com.gmail.ta.pages.AbstractGmailPage;
 import com.gmail.ta.pages.InitialPage;
@@ -14,6 +7,12 @@ import com.gmail.ta.pages.MainPage;
 import com.gmail.ta.pages.SignInPage;
 import com.gmail.ta.utils.ReadingFromCSV;
 import com.gmail.ta.utils.ScreenshotUtil;
+import org.apache.log4j.Logger;
+import org.junit.After;
+import org.junit.Test;
+import org.openqa.selenium.WebDriver;
+
+import java.io.IOException;
 
 
 public class MoveEmailToSpamTest extends AbstractGmailPage{
@@ -23,7 +22,6 @@ public class MoveEmailToSpamTest extends AbstractGmailPage{
 	@After
 	public void closeBrowser() {
 		WebDriver driver = Browser.getInstance();
-		ScreenshotUtil.takeScreenshot(driver);
 		Browser.closeDriver();
 	}
 		
@@ -39,6 +37,7 @@ public class MoveEmailToSpamTest extends AbstractGmailPage{
 		LOGGER.info("Login was successful");
 		MainPage homepage = new MainPage(driver);
 		homepage.moveMailToSpam();
+		ScreenshotUtil.takeScreenshot(driver);
 		LOGGER.info("Emal has been moved to Spam folder");
 		
 	}

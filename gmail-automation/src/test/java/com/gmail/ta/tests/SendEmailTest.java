@@ -1,19 +1,18 @@
 package com.gmail.ta.tests;
 
-import java.io.IOException;
-
-import org.apache.log4j.Logger;
-import org.junit.After;
-import org.junit.Test;
-import org.openqa.selenium.WebDriver;
-
 import com.gmail.ta.core.webdriver.Browser;
-import com.gmail.ta.core.webdriver.Decorator;
 import com.gmail.ta.pages.AbstractGmailPage;
 import com.gmail.ta.pages.InitialPage;
 import com.gmail.ta.pages.SendingEmail;
 import com.gmail.ta.pages.SignInPage;
 import com.gmail.ta.utils.ReadingFromCSV;
+import com.gmail.ta.utils.ScreenshotUtil;
+import org.apache.log4j.Logger;
+import org.junit.After;
+import org.junit.Test;
+import org.openqa.selenium.WebDriver;
+
+import java.io.IOException;
 
 
 public class SendEmailTest extends AbstractGmailPage {
@@ -37,6 +36,7 @@ public class SendEmailTest extends AbstractGmailPage {
 		LOGGER.info("Login was successful");
 		SendingEmail sendmail = new SendingEmail(driver);
 		sendmail.sendMessage();
+		ScreenshotUtil.takeScreenshot(driver);
 	}
 	
 }
